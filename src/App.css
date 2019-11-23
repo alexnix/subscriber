@@ -1,9 +1,76 @@
-.App {
-  text-align: center;
+body {
+  background-color: #efefef;
+  font-family: "Fauna One", serif;
+}
+
+h1 {
+  margin: 35px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
 }
 
 .App-logo {
   height: 40vmin;
+}
+
+.pick-arrow {
+  transform: rotate(270deg);
+  margin-bottom: -17px;
+  color: #aaa;
+}
+
+.media {
+  height: 100px;
+}
+
+.subscriptions-wrapper {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subscription {
+  cursor: pointer;
+  text-align: center;
+  padding-bottom: 12px;
+  width: 200px;
+  margin: 5px;
+  background-color: blue;
+}
+
+.details-super-wrapper {
+  margin-top: -15px;
+}
+
+.details-wrapper {
+  background-color: #aaa;
+  color: white;
+  display: flex;
+  padding: 50px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 13px;
+  width: 80%;
+  margin: 2px;
+  background-color: white;
+  border-radius: 5px;
+  border: 0px;
+}
+
+button {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+  margin: 20px;
+}
+
+.inputs-wrapper {
 }
 
 .App-header {
